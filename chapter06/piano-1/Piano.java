@@ -33,10 +33,18 @@ public class Piano extends World
      */
     public void act()
     {
+        //Every second, say hello to the next person in the list
+        if (frames % 60 == 0)
+        {
+            if (frames / 60 < 10)
+            showText("Hello " + studentNames[frames / 60], 400, 170);
+        }
         // keep track of frames
         frames += 1;
         
         //show frames on screen
         showText(""+ frames, 100, 100);
+        
+        
     }
 }
