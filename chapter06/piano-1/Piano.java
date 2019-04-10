@@ -11,7 +11,11 @@ public class Piano extends World
     /**
      * Instance variables (can be used anywhere below)
      */
+    // primitive data type (int)
     int frames;
+    // object data type... square brackets [] indicate an array (a list)
+    // Data type: String
+    String[] studentNames = {"Sarah", "Chelsea", "Jack", "Gavin", "Minah", "Brandon", "Jeewoo", "Peter", "Justy"};
     /**
      * Make the piano.
      */
@@ -20,6 +24,9 @@ public class Piano extends World
         super(800, 340, 1);
         //start tracking frames 
         frames = 0;
+        
+        //initialize the array of student names
+        
     }
     /**
      * Act - called repeadatly to creat animation
