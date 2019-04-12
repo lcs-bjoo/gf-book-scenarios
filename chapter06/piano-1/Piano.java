@@ -36,10 +36,10 @@ public class Piano extends World
         //Every second, say hello to the next person in the list
         // Use a Boolean and to check both conditions
         // The showText statement only runs when both conditions are true
-        if ((frames % 60 == 0) && (frames / 60 < 60))
+        //if ((frames % 60 == 0) && (frames / 60 < 60))
         {
             
-            showText("Hello " + studentNames[frames / 60], 400, 170);
+            //showText("Hello " + studentNames[frames / 60], 400, 170);
         }
         // keep track of frames
         frames += 1;
