@@ -42,6 +42,10 @@ public class Piano extends World
         
         //This Block of code runs once per second until the end of the
         //whiteKeys array
+        
+        //Note: whiteKyes.length automatically returns the correct number of
+        //values 
+        if (( frames % 60 == 0) && (frames / 60 < whiteKeys.length))
         {
             
             //showText("Hello " + studentNames[frames / 60], 400, 170);
