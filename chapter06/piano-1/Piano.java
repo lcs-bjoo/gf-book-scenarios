@@ -16,6 +16,8 @@ public class Piano extends World
     // object data type... square brackets [] indicate an array (a list)
     // Data type: String
     String[] studentNames = {"Sarah", "Chelsea", "Jack", "Gavin", "Minah", "Brandon", "Jeewoo", "Peter", "Justy"};
+    String[] whiteKeys = {"a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'", "\\" };
+    String[] whiteNotes = {"3c", "3d", "3e", "3f", "3g", "3a", "3b", "4c", "4d", "4f", "4g" };
     /**
      * Make the piano.
      */
@@ -37,6 +39,9 @@ public class Piano extends World
         // Use a Boolean and to check both conditions
         // The showText statement only runs when both conditions are true
         //if ((frames % 60 == 0) && (frames / 60 < 60))
+        
+        //This Block of code runs once per second until the end of the
+        //whiteKeys array
         {
             
             //showText("Hello " + studentNames[frames / 60], 400, 170);
