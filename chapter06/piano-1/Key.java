@@ -9,14 +9,14 @@ public class Key extends Actor
     //key and sound are object data types -shows in black, type in Capitalized
     private String key;
     private String sound;
-    
+    private boolean keyWhite;
     //track white keys and notes
     
     /**
      * Create a new key.
      * Constructor
      */
-    public Key(String keyName,String soundFile)
+    public Key(String keyName,String soundFile, boolean isKeyWhite)
     {
         //Key begins in the "up" position
         isDown = false;
@@ -24,6 +24,8 @@ public class Key extends Actor
         //Initialize the key and sound instance variables
         key = keyName;
         sound = soundFile;
+        keyWhite = isKeyWhite;
+        if (keyWhite = false);
     }
 
     /**

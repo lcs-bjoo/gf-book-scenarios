@@ -1,12 +1,15 @@
 #Greenfoot project file
 class.Key.image=white-key.png
 class.Piano.image=wood.jpg
+dependency1.from=Piano
+dependency1.to=Key
+dependency1.type=UsesDependency
 editor.fx.0.height=722
 editor.fx.0.width=800
-editor.fx.0.x=640
-editor.fx.0.y=29
+editor.fx.0.x=17
+editor.fx.0.y=95
 height=523
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 publish.hasSource=false
@@ -40,5 +43,5 @@ target2.x=160
 target2.y=10
 version=3.0.0
 width=1052
-xPosition=0
-yPosition=153
+xPosition=92
+yPosition=23
